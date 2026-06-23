@@ -4,38 +4,92 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     
-    <!-- 1. LOCAL SEO META TAGS -->
+    <!-- LOCAL SEO META TAGS -->
     <title>Ann's Place | Luxury Dreadlocks & Nail Care Salon Mairo-Inya</title>
-    <meta name="description" content="Premium hair and nail sanctuary in Mairo-Inya, opposite Viktas  Sacco. Specializing in expert dreadlocks styling, starter locs, and luxury gel nail enhancements." />
-    <meta name="keywords" content="Ann's Place, dreadlocks Mairo-Inya, nails Nyahururu, nail salon Mairo-Inya, retwist locs, salon opposite Viktas  Sacco" />
+    <meta name="description" content="Premium hair and nail sanctuary in Mairo-Inya, opposite Viktas Sacco. Specializing in expert dreadlocks styling, starter locs, and luxury gel nail enhancements." />
+    <meta name="keywords" content="Ann's Place, dreadlocks Mairo-Inya, nails Nyahururu, nail salon Mairo-Inya, retwist locs, salon opposite Viktas Sacco" />
+    <meta name="robots" content="index, follow" />
+    
+    <!-- CANONICAL LINK -->
+    <link rel="canonical" href="https://kuitech-code.github.io/annsplace-salon/" />
 
-    <!-- 2. BROWSER TAB FAVICONS (From Favicon.io) -->
+    <!-- LOCAL GEOGRAPHIC TARGETING META TAGS -->
+    <meta name="geo.region" content="KE-34" />
+    <meta name="geo.placename" content="Mairo-Inya" />
+    <meta name="geo.position" content="0.025096;36.409991" /> <!-- FIXED: Added exact map coordinates -->
+    <meta name="ICBM" content="0.025096, 36.409991" />
+
+    <!-- BROWSER TAB FAVICONS (From Favicon.io) -->
     <link rel="icon" type="image/png" sizes="32x32" href="/annsplace-salon/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/annsplace-salon/favicon-16x16.png" />
     <link rel="shortcut icon" href="/annsplace-salon/favicon.ico" />
     <link rel="apple-touch-icon" sizes="180x180" href="/annsplace-salon/apple-touch-icon.png" />
 
-        <!-- 3. WHATSAPP LINK PREVIEW (Open Graph Data) -->
-    <meta property="og:title" content="Ann's Place | Luxury Dreadlocks & Nail Care" />
-    <meta property="og:description" content="Premium hair and nail sanctuary in Mairo-Inya, opposite Viktas  Sacco." />
+    <!-- OPEN GRAPH / SOCIAL LINK PREVIEWS (WhatsApp, Facebook, Discord) -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://kuitech-code.github.io/annsplace-salon/" />
+    <meta property="og:site_name" content="Ann's Place" />
+    <meta property="og:title" content="Ann's Place | Luxury Dreadlocks & Nail Care Salon" />
+    <meta property="og:description" content="Premium hair and nail sanctuary in Mairo-Inya, opposite Viktas Sacco. Expert dreadlocks styling & luxury nail care." />
     <meta property="og:image" content="https://kuitech-code.github.io/annsplace-salon/preview.png" />
     <meta property="og:image:type" content="image/png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
-    <meta property="og:type" content="website" />
 
-    <!-- 3. X LINK PREVIEW (Open Graph Data) -->
-    <meta property="og:url" content="https://kuitech-code.github.io/annsplace-salon/" />
-    <meta property="og:site_name" content="Ann's Place" />
+    <!-- X (TWITTER) LINK PREVIEW TAGS -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://kuitech-code.github.io/annsplace-salon/" />
     <meta name="twitter:title" content="Ann's Place | Luxury Dreadlocks & Nail Care" />
-    <meta name="twitter:description" content="Premium hair and nail sanctuary in Mairo-Inya." />
+    <meta name="twitter:description" content="Premium hair and nail sanctuary in Mairo-Inya, opposite Viktas Sacco." />
     <meta name="twitter:image" content="https://kuitech-code.github.io/annsplace-salon/preview.png" />
 
-    <!-- 5. GOOGLE FONTS CONNECTIONS -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- GOOGLE FONTS CONNECTIONS -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <!-- BEAUTY SALON LOCAL STRUCTURED DATA (JSON-LD SCHEMA) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "Ann's Place",
+      "image": "https://kuitech-code.github.io/annsplace-salon/preview.png",
+      "@id": "https://kuitech-code.github.io/annsplace-salon/#salon",
+      "url": "https://kuitech-code.github.io/annsplace-salon/",
+      "telephone": "+254797206585", 
+      "priceRange": "$$",
+      "hasMap": "https://google.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Nyahururu - Nyeri Road, Opposite Viktas Sacco",
+        "addressLocality": "Mairo-Inya",
+        "addressRegion": "Nyandarua",
+        "postalCode": "20300",
+        "addressCountry": "KE"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 0.025096,
+        "longitude": 36.409991
+      },
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday"
+          ],
+          "opens": "08:00",
+          "closes": "20:00"
+        }
+      ]
+    }
+    </script>
     <script type="module" crossorigin src="/annsplace-salon/assets/index-zk9codg5.js"></script>
     <link rel="stylesheet" crossorigin href="/annsplace-salon/assets/index-DJbWexbO.css">
   </head>
